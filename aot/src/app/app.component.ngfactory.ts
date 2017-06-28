@@ -18,6 +18,11 @@ function View_AppComponent_1(_l:any):i0.ɵViewDefinition {
       i0.ɵted((null as any),['Hello Angular']))],(null as any),(null as any));
 }
 function View_AppComponent_2(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),
+      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
+      i0.ɵted((null as any),['Hello Angular']))],(null as any),(null as any));
+}
+function View_AppComponent_3(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'div',([] as any[]),
       (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
       i0.ɵted((null as any),['','']))],(null as any),(_ck,_v) => {
@@ -39,18 +44,23 @@ export function View_AppComponent_0(_l:any):i0.ɵViewDefinition {
       (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵand(16777216,(null as any),
           (null as any),1,(null as any),View_AppComponent_1)),i0.ɵdid(16384,(null as any),
           0,i2.NgIf,[i0.ViewContainerRef,i0.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),
+      (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵand(16777216,(null as any),
+          (null as any),1,(null as any),View_AppComponent_2)),i0.ɵdid(16384,(null as any),
+          0,i2.NgIf,[i0.ViewContainerRef,i0.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),
       (_l()(),i0.ɵted((null as any),['\n\n'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
           1,'h3',([] as any[]),(null as any),(null as any),(null as any),(null as any),
           (null as any))),(_l()(),i0.ɵted((null as any),['List of Heroes'])),(_l()(),
           i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵand(16777216,(null as any),(null as any),
-          1,(null as any),View_AppComponent_2)),i0.ɵdid(802816,(null as any),0,i2.NgForOf,
+          1,(null as any),View_AppComponent_3)),i0.ɵdid(802816,(null as any),0,i2.NgForOf,
           [i0.ViewContainerRef,i0.TemplateRef,i0.IterableDiffers],{ngForOf:[0,'ngForOf']},
           (null as any))],(_ck,_v) => {
     var _co:i1.AppComponent = _v.component;
     const currVal_0:any = _co.showHeading;
     _ck(_v,4,0,currVal_0);
-    const currVal_1:any = _co.heroes;
-    _ck(_v,10,0,currVal_1);
+    const currVal_1:any = _co.showHeading;
+    _ck(_v,7,0,currVal_1);
+    const currVal_2:any = _co.heroes;
+    _ck(_v,13,0,currVal_2);
   },(null as any));
 }
 export function View_AppComponent_Host_0(_l:any):i0.ɵViewDefinition {
@@ -61,4 +71,4 @@ export function View_AppComponent_Host_0(_l:any):i0.ɵViewDefinition {
 }
 export const AppComponentNgFactory:i0.ComponentFactory<i1.AppComponent> = i0.ɵccf('my-app',
     i1.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiSDovQW5ndWxhcjIvYW90LXNhbXBsZS9zcmMvYXBwL2FwcC5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vSDovQW5ndWxhcjIvYW90LXNhbXBsZS9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMiLCJuZzovLy9IOi9Bbmd1bGFyMi9hb3Qtc2FtcGxlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vSDovQW5ndWxhcjIvYW90LXNhbXBsZS9zcmMvYXBwL2FwcC5jb21wb25lbnQudHMuQXBwQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGJ1dHRvbiAoY2xpY2spPVwidG9nZ2xlSGVhZGluZygpXCI+VG9nZ2xlIEhlYWRpbmc8L2J1dHRvbj5cclxuPGgxICpuZ0lmPVwic2hvd0hlYWRpbmdcIj5IZWxsbyBBbmd1bGFyPC9oMT5cclxuXHJcbjxoMz5MaXN0IG9mIEhlcm9lczwvaDM+XHJcbjxkaXYgKm5nRm9yPVwibGV0IGhlcm8gb2YgaGVyb2VzXCI+e3toZXJvfX08L2Rpdj4iLCI8bXktYXBwPjwvbXktYXBwPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7OztvQkNDQTtNQUFBLHdFQUF3QjthQUFBOzs7b0JBR3hCO01BQUEsd0VBQWlDO2FBQUE7SUFBQTtJQUFBOzs7O29CQUpqQztNQUFBO1FBQUE7UUFBQTtRQUFRO1VBQUE7VUFBQTtRQUFBO1FBQVI7TUFBQSxnQ0FBa0M7TUFBdUIsdUNBQ3pEO1VBQUEsMkRBQUE7VUFBQTtNQUEwQyx5Q0FFMUM7VUFBQTtVQUFBLGdCQUFJLG1EQUFtQjtpQkFBQSx3QkFDdkI7VUFBQSw2Q0FBQTtVQUFBO1VBQUE7O0lBSEk7SUFBSixXQUFJLFNBQUo7SUFHSztJQUFMLFlBQUssU0FBTDs7OztvQkNKQTtNQUFBO2FBQUE7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiRDovTXlQcm9qZWN0L0FuZ3VsYXIyL2FvdC1zYW1wbGUvc3JjL2FwcC9hcHAuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0Q6L015UHJvamVjdC9Bbmd1bGFyMi9hb3Qtc2FtcGxlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cyIsIm5nOi8vL0Q6L015UHJvamVjdC9Bbmd1bGFyMi9hb3Qtc2FtcGxlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vRDovTXlQcm9qZWN0L0FuZ3VsYXIyL2FvdC1zYW1wbGUvc3JjL2FwcC9hcHAuY29tcG9uZW50LnRzLkFwcENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxidXR0b24gKGNsaWNrKT1cInRvZ2dsZUhlYWRpbmcoKVwiPlRvZ2dsZSBIZWFkaW5nPC9idXR0b24+XHJcbjxoMSAqbmdJZj1cInNob3dIZWFkaW5nXCI+SGVsbG8gQW5ndWxhcjwvaDE+XHJcbjxoMSAqbmdJZj1cInNob3dIZWFkaW5nXCI+SGVsbG8gQW5ndWxhcjwvaDE+XHJcblxyXG48aDM+TGlzdCBvZiBIZXJvZXM8L2gzPlxyXG48ZGl2ICpuZ0Zvcj1cImxldCBoZXJvIG9mIGhlcm9lc1wiPnt7aGVyb319PC9kaXY+IiwiPG15LWFwcD48L215LWFwcD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7b0JDQ0E7TUFBQSx3RUFBd0I7YUFBQTs7O29CQUN4QjtNQUFBLHdFQUF3QjthQUFBOzs7b0JBR3hCO01BQUEsd0VBQWlDO2FBQUE7SUFBQTtJQUFBOzs7O29CQUxqQztNQUFBO1FBQUE7UUFBQTtRQUFRO1VBQUE7VUFBQTtRQUFBO1FBQVI7TUFBQSxnQ0FBa0M7TUFBdUIsdUNBQ3pEO1VBQUEsMkRBQUE7VUFBQTtNQUEwQyx1Q0FDMUM7VUFBQSwyREFBQTtVQUFBO01BQTBDLHlDQUUxQztVQUFBO1VBQUEsZ0JBQUksbURBQW1CO2lCQUFBLHdCQUN2QjtVQUFBLDZDQUFBO1VBQUE7VUFBQTs7SUFKSTtJQUFKLFdBQUksU0FBSjtJQUNJO0lBQUosV0FBSSxTQUFKO0lBR0s7SUFBTCxZQUFLLFNBQUw7Ozs7b0JDTEE7TUFBQTthQUFBOzs7OyJ9
